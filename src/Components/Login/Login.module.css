@@ -3,9 +3,26 @@
   margin: 5%;
 }
 
+.mainlogo {
+  position: absolute;
+  width: 234px;
+  height: 59px;
+  top: 405px;
+  left: 436;
+}
+
+.shade {
+  border-radius: 8px;
+  color: #3E4C6F;
+  background-color: rgba(62, 76, 111, 0.75);;
+  position: absolute;
+  width: 818px;
+  height: 693px;
+}
+
 .Loginbox {
   border-radius: 8px;
-  background-color: grey;
+  background-color: white;
   width: 403px;
   height: 477px;
   margin-left: 20px;
@@ -16,43 +33,47 @@
 }
 
 .doggo img {
-
-  background-color: hotpink;
   border-radius: 8px;
   align-self: center;
 }
 
 .etxt {
     font-weight: bold;  
-    margin-top: 1%;
-    margin-left: 5%;
+    margin-top: 10%;
+    margin-left: 2%;
 }
 
 .pwd {
     font-weight: bold;
     margin-top: 1%;
-    margin-left: 5%;
+    margin-left: 2%;
 }
 
 .blocks {
+  background-color: #F4F4F4;
     width: 352px;
     height: 50px;
     border-radius: 5px;
-    margin-left: 5%;
+    margin-left: 2%;
 }
 
 .signup {
-    text-align: end;
-    margin-top: 25px;
-    margin-right: 7%;
+  color: #FF65C5;
+  font-size: 14px;
+  line-height: 17px;
+  position: absolute;
+  right: 90px;
+  text-decoration: none;
+  margin-top: 25px;
 }
 
 .btn {
     color: white;
     font-weight: bold;
     background-color: #FF65C5;
-    margin-top: 50px;
-    margin-left: 6%;
+    position: absolute;
+    margin-top: 7%;
+    margin-left: 12px;
     width: 351px;
     height: 55px;
     border-radius: 5px;
@@ -62,4 +83,21 @@
 .btn:hover {
     color: black;
     background-color: white;
+}
+
+.footertxt {
+  position: absolute;
+  left: 1043px;
+  top: 638px;
+}
+
+.footbtn {
+  color: white;
+  border-radius: 5px;
+  background-color: #3E4C6F;
+  position: absolute;
+  width: 351px;
+  height: 55px;
+  left: 913px;
+  top: 703px; 
 }
