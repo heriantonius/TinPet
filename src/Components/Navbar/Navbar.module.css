@@ -1,0 +1,48 @@
+.Container {
+    background-color: #C4C4C4;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Logo {
+    margin-left: 3%;
+}
+
+.Login {
+    background-color: #FF65C5;
+    width: 280px;
+    height: 55px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 3%;
+    border-radius: 8px;
+}
+
+.Login:hover {
+    background-color: #c93291;
+
+}
+
+.Login button {
+    color: white;
+    background-color: #FF65C5;
+    border: none;
+    font-size: 18px;
+    font-weight: bold;
+    width: 280px;
+    height: 55px;
+    border-radius: 8px;
+}
+
+.Login button:focus {
+    border: none;
+    outline:none;
+}
+
+.Login button:hover {
+    background-color: #c93291;
+}
+
