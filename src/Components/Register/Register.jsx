@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import loginbg from "../../Asset/loginbg.svg";
 import logo from "../../Asset/logo.svg";
 import styles from "./Register.module.css";
+import { NavLink } from "react-router-dom";
 
 function Register() {
     return (
@@ -46,9 +47,11 @@ function Register() {
                     <input type="password" className={styles.blocks}/>
                 </div>
 
-                <button  className={styles.regisbtn}>
+                <NavLink to="/login">
+                <button className={styles.regisbtn}>
                     Sign Up
                     </button>
+                </NavLink>
 
             <div className={styles.footertxt}>
                 Get the App.
