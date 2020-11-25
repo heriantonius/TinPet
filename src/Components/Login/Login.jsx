@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import loginbg from "../../Asset/loginbg.svg";
 import logo from "../../Asset/logo.svg";
 import styles from "./Login.module.css";
+import { NavLink } from "react-router-dom";
 
 function Login() {
     return (
@@ -32,9 +33,13 @@ function Login() {
                 <div>
                     <a  className={styles.signup} href="/register"> Sign Up?</a>
                 </div>
+
+                <NavLink to="/">
                 <button className={styles.btn}>
                     Login
                     </button>
+                </NavLink>
+
             <div className={styles.footertxt}>
                 Get the App.
             </div>
