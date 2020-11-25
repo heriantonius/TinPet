@@ -2,39 +2,54 @@ import React from 'react'
 import { Link } from 'react-router-dom';
 import loginbg from "../../Asset/loginbg.svg";
 import logo from "../../Asset/logo.svg";
-import styles from "./Login.module.css";
+import styles from "./Register.module.css";
 
-function Login() {
+function Register() {
     return (
-        <div className={styles.Main}>
+        <div className={styles.MainRegis}>
+
             <div className={styles.shade}>    
             </div>
             <div className={styles.doggo}>
                 <img src={loginbg} alt="login bg"></img>
             </div>
-            <div className={styles.Loginbox}>
+            
+            <div className={styles.Regisbox}>
                 <div>
-                    <h1>LOG IN</h1>
+                    <h1>SIGN UP</h1>
                 </div>
                 <div className={styles.etxt}>
                     Email
                     </div>
                 <div>
-                    <input type="emai" className={styles.blocks}>
-                    </input>
+                    <input type="email" className={styles.blocks}/>
                 </div>
+
+                <div className={styles.username}>
+                    Pet Name
+                </div>
+                <div>
+                    <input type="text" className={styles.blocks}/>
+                </div>
+
                 <div className={styles.pwd}>
                     Password
                     </div>
                 <div>
                     <input type="password" className={styles.blocks}></input>
                 </div>
+
+                <div className={styles.pwd}>
+                    Confirm Password
+                    </div>
                 <div>
-                    <a  className={styles.signup} href="/register"> Sign Up?</a>
+                    <input type="password" className={styles.blocks}/>
                 </div>
-                <button className={styles.btn}>
-                    Login
+
+                <button  className={styles.regisbtn}>
+                    Sign Up
                     </button>
+
             <div className={styles.footertxt}>
                 Get the App.
             </div>
@@ -46,4 +61,4 @@ function Login() {
     );
 }
 
-export default Login;
+export default Register;

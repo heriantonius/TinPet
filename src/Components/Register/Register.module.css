@@ -1,0 +1,109 @@
+.MainRegis {
+    display: flex;
+    margin: 5%;
+  }
+  
+  .mainlogo {
+    position: absolute;
+    width: 234px;
+    height: 59px;
+    top: 405px;
+    left: 436;
+  }
+  
+  .shade {
+    border-radius: 8px;
+    color: #3E4C6F;
+    background-color: rgba(62, 76, 111, 0.75);;
+    position: absolute;
+    width: 818px;
+    height: 693px;
+  }
+  
+  .Regisbox {
+    border-radius: 8px;
+    background-color: white;
+    width: 403px;
+    height: 545px;
+    margin-left: 20px;
+  }
+  
+  .Regisbox h1 {
+    text-align: center;
+  }
+  
+  .doggo img {
+    border-radius: 8px;
+    align-self: center;
+  }
+
+  .username {
+    font-weight: bold;  
+    margin-top: 1%;
+    margin-left: 2%;
+  }
+  
+  .etxt {
+      font-weight: bold;  
+      margin-top: 10%;
+      margin-left: 2%;
+  }
+  
+  .pwd {
+      font-weight: bold;
+      margin-top: 1%;
+      margin-left: 2%;
+  }
+  
+  .blocks {
+    background-color: #F4F4F4;
+      width: 352px;
+      height: 50px;
+      border-radius: 5px;
+      margin-left: 2%;
+  }
+  
+  .signup {
+    color: #FF65C5;
+    font-size: 14px;
+    line-height: 17px;
+    position: absolute;
+    right: 90px;
+    text-decoration: none;
+    margin-top: 25px;
+  }
+  
+  .regisbtn {
+      color: white;
+      font-weight: bold;
+      background-color: #FF65C5;
+      position: absolute;
+      margin-top: 4%;
+      margin-left: 12px;
+      width: 351px;
+      height: 55px;
+      border-radius: 5px;
+      outline: 0;
+  }
+  
+  .btn:hover {
+      color: black;
+      background-color: white;
+  }
+  
+  .footertxt {
+    position: absolute;
+    left: 1043px;
+    top: 638px;
+  }
+  
+  .footbtn {
+    color: white;
+    border-radius: 5px;
+    background-color: #3E4C6F;
+    position: absolute;
+    width: 351px;
+    height: 55px;
+    left: 913px;
+    top: 703px; 
+  }
