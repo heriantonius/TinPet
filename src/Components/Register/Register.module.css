@@ -1,45 +1,13 @@
 .MainRegis {
   display: flex;
   position: relative;
-  margin-left: 15%;
+  margin-left: 5%;
   margin-top: 3%;
   margin-right: 15%;
 }
 
-.mainlogo {
-  position: absolute;
-  width: 234px;
-  height: 59px;
-  top: 405px;
-  left: 436;
-}
-
-.tinlog {
-  margin-left: 27%;
-  margin-top: 32%;
-  position: absolute;
-}
-
-.tinlog img {
-  width: 63px;
-  height: 63px;
-}
-
-.tinpetlogo {
-  margin-left: 35%;
-  margin-top: 32%;
-  position: absolute;
-}
-
-.tagline {
-  font-size: 18px;
-  color: white;
-  margin-left: 34%;
-  margin-top: 42%;
-  position: absolute;
-}
-
 .Regisbox {
+  flex-wrap: wrap;
   border: 1px solid;
   border-color: #c4c4c4;
   border-radius: 8px;
@@ -54,6 +22,7 @@
 }
 
 .doggo img {
+  display: flex;
   border-radius: 8px;
   align-self: center;
 }
