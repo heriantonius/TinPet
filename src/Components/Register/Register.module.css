@@ -1,28 +1,13 @@
 .MainRegis {
   display: flex;
-  margin-left: 15%;
+  position: relative;
+  margin-left: 5%;
   margin-top: 3%;
   margin-right: 15%;
 }
 
-.mainlogo {
-  position: absolute;
-  width: 234px;
-  height: 59px;
-  top: 405px;
-  left: 436;
-}
-
-.shade {
-  border-radius: 8px;
-  color: #3e4c6f;
-  background-color: rgba(62, 76, 111, 0.75);
-  position: absolute;
-  width: 818px;
-  height: 693px;
-}
-
 .Regisbox {
+  flex-wrap: wrap;
   border: 1px solid;
   border-color: #c4c4c4;
   border-radius: 8px;
@@ -37,6 +22,7 @@
 }
 
 .doggo img {
+  display: flex;
   border-radius: 8px;
   align-self: center;
 }

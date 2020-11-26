@@ -1,28 +1,13 @@
 .Main {
   display: flex;
+  position: relative;
   margin-top: 3%;
-  margin-left: 15%;
+  margin-left: 5%;
   margin-right: 15%;
 }
 
-.mainlogo {
-  position: absolute;
-  width: 234px;
-  height: 59px;
-  top: 405px;
-  left: 436;
-}
-
-.shade {
-  border-radius: 8px;
-  color: #3e4c6f;
-  background-color: rgba(62, 76, 111, 0.75);
-  position: absolute;
-  width: 818px;
-  height: 693px;
-}
-
 .Loginbox {
+  flex-wrap: wrap;
   border: 1px solid;
   border-color: #C4C4C4;
   border-radius: 8px;
@@ -37,6 +22,7 @@
 }
 
 .doggo img {
+  display: flex;
   border-radius: 8px;
   align-self: center;
 }
@@ -45,37 +31,50 @@
   font-size: 18px;
   font-weight: bold;
   margin-top: 15%;
-  margin-left: 3%;
+  margin-left: 4%;
 }
 
 .pwd {
   font-size: 18px;
   font-weight: bold;
   margin-top: 5%;
-  margin-left: 3%;
+  margin-left: 4%;
 }
 
 .blocks {
   background-color: #f4f4f4;
-  width: 352px;
+  width: 85%;
   height: 50px;
   border: none;
   border: 1px solid;
   border-color: #C4C4C4;
   border-radius: 5px;
-  margin-left: 3%;
-  margin-bottom: 5%;
   padding-left: 10px;
   padding-right: 10px;
+  margin-left: 4%;
+}
+
+.blocks2 {
+  background-color: #f4f4f4;
+  width: 85%;
+  height: 50px;
+  border: none;
+  border: 1px solid;
+  border-color: #C4C4C4;
+  border-radius: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-left: 4%;
+  margin-bottom: 10%;
 }
 
 .signup {
+  align-self: flex-end;
   color: #ff65c5;
   font-size: 14px;
+  margin-left: 75%;
   line-height: 17px;
   text-decoration: none;
-  position: relative;
-  left: 80%;
 }
 
 .signup:hover {
@@ -86,10 +85,9 @@
   color: white;
   font-weight: bold;
   background-color: #ff65c5;
-  position: absolute;
-  margin-top: 2%;
-  margin-left: 25px;
-  width: 351px;
+  margin-top: 7%;
+  margin-left: 4%;
+  width: 90%;
   height: 55px;
   border: none;
   border-radius: 5px;
@@ -103,7 +101,7 @@
 
 .footertxt {
   margin-left: 40%;
-  margin-top: 55%;
+  margin-top: 30%;
 }
 
 .footbtn {
@@ -111,10 +109,10 @@
   border: none;
   border-radius: 5px;
   background-color: #3e4c6f;
-  margin-top: 8%;
-  margin-left: 6%;
   width: 351px;
   height: 55px;
+  margin-top: 10%;
+  margin-left: 6%;
 }
 
 .footbtn:hover {
