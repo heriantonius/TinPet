@@ -1,5 +1,6 @@
 .MainRegis {
   display: flex;
+  position: relative;
   margin-left: 15%;
   margin-top: 3%;
   margin-right: 15%;
@@ -13,13 +14,29 @@
   left: 436;
 }
 
-.shade {
-  border-radius: 8px;
-  color: #3e4c6f;
-  background-color: rgba(62, 76, 111, 0.75);
+.tinlog {
+  margin-left: 27%;
+  margin-top: 32%;
   position: absolute;
-  width: 818px;
-  height: 693px;
+}
+
+.tinlog img {
+  width: 63px;
+  height: 63px;
+}
+
+.tinpetlogo {
+  margin-left: 35%;
+  margin-top: 32%;
+  position: absolute;
+}
+
+.tagline {
+  font-size: 18px;
+  color: white;
+  margin-left: 34%;
+  margin-top: 42%;
+  position: absolute;
 }
 
 .Regisbox {

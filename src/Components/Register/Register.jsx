@@ -1,7 +1,5 @@
 import React from 'react'
-import { Link } from 'react-router-dom';
-import loginbg from "../../Asset/loginbg.svg";
-import logo from "../../Asset/logo.svg";
+import dogbg from "../../Asset/dogbg.png";
 import styles from "./Register.module.css";
 import { NavLink } from "react-router-dom";
 
@@ -9,10 +7,13 @@ function Register() {
     return (
         <div className={styles.MainRegis}>
 
-            <div className={styles.shade}>    
-            </div>
             <div className={styles.doggo}>
-                <img src={loginbg} alt="login bg"></img>
+                <div className={styles.tinlog}>
+                    <img src="https://ik.imagekit.io/prequel/assets/TinPet_Logo_JksXcgg-ql9N.png" />
+                </div>
+                <img className={styles.tinpetlogo} src="https://ik.imagekit.io/prequel/assets/TinPet-white_noRAcRA2FAdY.png" />
+                <p className={styles.tagline}>Find your pet's soulmate</p>
+                <img src={dogbg} alt="login bg"></img>
             </div>
             
             <div className={styles.Regisbox}>
@@ -23,14 +24,14 @@ function Register() {
                     Email
                     </div>
                 <div>
-                    <input type="email" className={styles.blocks}/>
+                    <input type="email" className={styles.blocks} />
                 </div>
 
                 <div className={styles.username}>
-                    Pet Name
+                    Full Name
                 </div>
                 <div>
-                    <input type="text" className={styles.blocks}/>
+                    <input type="text" className={styles.blocks} />
                 </div>
 
                 <div className={styles.pwd}>
@@ -44,20 +45,20 @@ function Register() {
                     Confirm Password
                     </div>
                 <div>
-                    <input type="password" className={styles.blocks}/>
+                    <input type="password" className={styles.blocks} />
                 </div>
 
                 <NavLink to="/login">
-                <button className={styles.regisbtn}>
-                    Sign Up
+                    <button className={styles.regisbtn}>
+                        Sign Up
                     </button>
                 </NavLink>
 
-            <div className={styles.footertxt}>
-                Get the App.
+                <div className={styles.footertxt}>
+                    Get the App.
             </div>
-            <button className={styles.footbtn}>
-                Play Store
+                <button className={styles.footbtn}>
+                    Play Store
             </button>
             </div>
         </div>
